@@ -242,7 +242,7 @@ const achievementSection = {
       title: "AWS Solutions Architect",
       subtitle:
         "AWS solutions architect course and certification in 2021",
-      image: require("./assets/images/codeInLogo.webp"),
+      image: require("./assets/images/awsLogo.png"),
       footerLink: [
         {
           name: "Certification",
@@ -261,7 +261,7 @@ const achievementSection = {
       title: "AWS Cloud Practictioner",
       subtitle:
         "AWS Cloud Practictioner course and certification",
-      image: require("./assets/images/googleAssistantLogo.webp"),
+      image: require("./assets/images/awsCloud.png"),
       footerLink: [
         {
           name: "View AWS Cloud Practictioner certification",

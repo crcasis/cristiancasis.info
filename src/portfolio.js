@@ -9,26 +9,26 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Cristian Casis",
+  title: "Hi all, I'm Cristian",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate Cloud DevOps Engineer|Solutions Architect|Couching 🚀 having an experience of building infrastructure and cloud environments with Docker / Kubernetes / ci-cd / Aws / GCloud / Azure"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing",
+    "https://drive.google.com/file/d/1rKg11G7ZJa79pz6dedliPfOqzVNuAX9M/view?usp=sharing",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/crcasis",
+  linkedin: "https://www.linkedin.com/in/cristian-casis-villarreal",
+  gmail: "crcasis@gmail.com",
+  gitlab: "https://gitlab.com/crcasis",
+  facebook: "https://www.facebook.com/cristian.casisvillarreal/",
+  medium: "https://cristiancasis.com/blog",
+
   // Instagram and Twitter are also supported in the links!
   display: true // Set true to display this section, defaults to false
 };
@@ -37,14 +37,14 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "CRAZY DEVOPS WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Code-based infrastructure development on public and hybrid cloud platforms"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Organization of teams and large projects using agile / SCRUM methodologies"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Development and integration of highly scalable projects using kubernetes together with continuous integration"
     )
   ],
 
@@ -114,24 +114,18 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      schoolName: "La Rioja University",
+      logo: require("./assets/images/riojaLogo.png"),
+      subHeader: "NETWORK SYSTEMS ADMINISTRATION",
+      duration: "September 201 - December 2017",
+      desc: "Advanced network management, configuration of local and remote servers in Windows and Unix systems. Advanced security audits. Advanced programming and administration of web pages and services. Creation and administration of databases. Programming. Cloud services."
+ 
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc:
-        "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "La Rioja University",
+      logo: require("./assets/images/riojaLogo.png"),
+      subHeader: "MICROCOMPUTER SYSTEMS AND NETWORKS",
+      duration: "September 2013 - December 2015"
     }
   ]
 };
@@ -142,16 +136,16 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
+      Stack: "DevOps, //Insert stack or technology you have experience in",
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: "Teaching / Couching",
+      progressPercentage: "80%"
     },
     {
-      Stack: "Programming",
-      progressPercentage: "60%"
+      Stack: "Team Leading",
+      progressPercentage: "70%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -163,32 +157,33 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
+      role: "Cloud Linux System Administrator",
+      company: "Ackstorm",
+      companylogo: require("./assets/images/ackstormLogo.png"),
       date: "June 2018 – Present",
       desc:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "Management, creation and automation of Cloud projects on Gcloud and AWS platforms.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Automation of projects and internal services for different clients.",
+        "Kubernetes, Docker, Jenkins, Git, Linux Administration, Monitoring of different Linux and Windows servers, configuration different application servers.",
+        "Administration of Oracle databases, PostgreSQL, etc."
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
+      role: "DevOps Engineer",
+      company: "Ebcont",
+      companylogo: require("./assets/images/ebcontLogo.png"),
       date: "May 2017 – May 2018",
       desc:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        "Upgrade and Migrate projects to AWS, Ansible, Terraform, Cloudformation, resolve problems in Linux Enviroments, Virtualization,, CI/CD, Support and working in Infraestructure as a code, Docker, Kubernetes..."
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
+      role: "DevOps Engineer",
+      company: "Viesure",
+      companylogo: require("./assets/images/viesureLogo.png"),
       date: "Jan 2015 – Sep 2015",
       desc:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        "Plan and implement new features in close collaboration with our product owners. Ensuring the stability, performance and other non-functional requirements of our services. Evaluate and introduce new technologies and frameworks. Share knowledge and ideas with the team. Focus on driving innovation from a technical and product perspectivere et dolore magna aliqua."
     }
   ]
 };
@@ -208,25 +203,25 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/viesureLogo.png"),
+      projectName: "Viesure",
+      projectDesc: "Deploy different services on Kubernetes to have a highly scalable platform",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "http://viesure.io/"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/zalandoLogo.jpg"),
+      projectName: "Zalando",
+      projectDesc: "Implement an API that communicates with various Zalando services all deployed in Docker",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://github.com/zalando"
         }
       ]
     }
@@ -244,51 +239,47 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "AWS Solutions Architect",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
+        "AWS solutions architect course and certification in 2021",
       image: require("./assets/images/codeInLogo.webp"),
       footerLink: [
         {
           name: "Certification",
           url:
-            "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+            "https://drive.google.com/file/d/1rKg11G7ZJa79pz6dedliPfOqzVNuAX9M/view?usp=sharing"
         },
+        
         {
-          name: "Award Letter",
+          name: "Code in Blog",
           url:
-            "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url:
-            "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+            "https://cristiancasis.com/certificate-en-aws-facilmente-explicado/"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "AWS Cloud Practictioner",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
+        "AWS Cloud Practictioner course and certification",
       image: require("./assets/images/googleAssistantLogo.webp"),
       footerLink: [
         {
-          name: "View Google Assistant Action",
+          name: "View AWS Cloud Practictioner certification",
           url:
-            "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+            "https://drive.google.com/file/d/1ykR7S6GE4ptHBL1yKd4xBMcr_9OT7AY9/view?usp=sharing"
         }
       ]
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
+      title: "SysOps / Jenkins / Linux Certification",
+      subtitle: "Other courses and certifications",
+      image: require("./assets/images/codeInLogo.webp"),
       footerLink: [
-        {name: "Certification", url: ""},
+        {name: "LPI000383635 - Verification: eepdr2j3s3", url: "https://cs.lpi.org/caf/Xamman/certification"},
         {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          name: "Linux certification",
+          url: "https://cs.lpi.org/caf/Xamman/certification"
         }
       ]
     }
@@ -306,16 +297,16 @@ const blogSection = {
   blogs: [
     {
       url:
-        "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+        "https://cristiancasis.com/crypto-exchange-deployment-con-opendax/",
+      title: "Deploy a crypto exchange platform open-source",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+        "Open-Source Cloud-Native Digital Asset & Cryptocurrency Exchange Platform"
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
+      url: "https://cristiancasis.com/vpn-con-wireguard-la-vpn-del-futuro/",
+      title: "VPN with Wireguard",
       description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+        "WireGuard is a security-focused virtual private network (VPN) known for its simplicity and ease of use."
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -324,17 +315,17 @@ const blogSection = {
 // Talks Sections
 
 const talkSection = {
-  title: "TALKS",
+  title: "SCHEDULE A DATE WITH ME",
   subtitle: emoji(
     "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
   ),
 
   talks: [
     {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
+      title: "Book a time",
+      subtitle: "Let's speak about the project",
+      slides_url: "https://cristiancasis.com/contrataciones/",
+      event_url: "https://cristiancasis.com/reservar-consultoria/"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -348,7 +339,7 @@ const podcastSection = {
 
   // Please Provide with Your Podcast embeded Link
   podcast: [
-    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
+    "https://www.ivoox.com/player_ej_66701015_4_1.html?c1=ff6600&fromPopup=true"
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -357,16 +348,18 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-3243454077",
-  email_address: "saadpasta70@gmail.com"
+  number: "+43 6601557847",
+  email_address: "info@cristiancasis.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
+
+
 
 export {
   illustration,

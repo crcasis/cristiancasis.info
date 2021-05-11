@@ -125,7 +125,8 @@ const educationInfo = {
       schoolName: "La Rioja University",
       logo: require("./assets/images/riojaLogo.png"),
       subHeader: "MICROCOMPUTER SYSTEMS AND NETWORKS",
-      duration: "September 2013 - December 2015"
+      duration: "September 2013 - December 2015",
+      desc: "Management and analysis of corporate networks. Configuration of hosts and domains in business areas. Execute established data recovery and application procedures for faults and data loss in the system. Install, configure and maintain multi-user services, applications and shared devices in a local network environment. Migrate platforms. Azure, Aws and Google Cloud."
     }
   ]
 };
@@ -175,7 +176,12 @@ const workExperiences = {
       companylogo: require("./assets/images/ebcontLogo.png"),
       date: "May 2017 – May 2018",
       desc:
-        "Upgrade and Migrate projects to AWS, Ansible, Terraform, Cloudformation, resolve problems in Linux Enviroments, Virtualization,, CI/CD, Support and working in Infraestructure as a code, Docker, Kubernetes..."
+        "Upgrade and Migrate projects to AWS, Ansible, Terraform, Cloudformation, resolve problems in Linux Enviroments, Virtualization,, CI/CD, Support and working in Infraestructure as a code, Docker, Kubernetes...",
+      descBullets: [
+          "Migrate projects to various platforms, server administration",
+          "Kubernetes and Docker expert, Monitoring",
+          "Project Manager"
+        ]  
     },
     {
       role: "DevOps Engineer",
@@ -183,7 +189,12 @@ const workExperiences = {
       companylogo: require("./assets/images/viesureLogo.png"),
       date: "Jan 2015 – Sep 2015",
       desc:
-        "Plan and implement new features in close collaboration with our product owners. Ensuring the stability, performance and other non-functional requirements of our services. Evaluate and introduce new technologies and frameworks. Share knowledge and ideas with the team. Focus on driving innovation from a technical and product perspectivere et dolore magna aliqua."
+        "Plan and implement new features in close collaboration with our product owners. Ensuring the stability, performance and other non-functional requirements of our services. Evaluate and introduce new technologies and frameworks. Share knowledge and ideas with the team. Focus on driving innovation from a technical and product perspectivere et dolore magna aliqua.",
+      descBullets: [
+          "Infrastructure Engineer",
+          "AWS Solutions Architect",
+          "Project manager made in docker swarm"
+      ]  
     }
   ]
 };

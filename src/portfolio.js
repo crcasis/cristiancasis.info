@@ -161,7 +161,7 @@ const workExperiences = {
       role: "Cloud Linux System Administrator",
       company: "Ackstorm",
       companylogo: require("./assets/images/ackstormLogo.png"),
-      date: "June 2018 – Present",
+      date: "Jun 2018 – Jun 2019",
       desc:
         "Management, creation and automation of Cloud projects on Gcloud and AWS platforms.",
       descBullets: [
@@ -174,7 +174,7 @@ const workExperiences = {
       role: "DevOps Engineer",
       company: "Ebcont",
       companylogo: require("./assets/images/ebcontLogo.png"),
-      date: "May 2017 – May 2018",
+      date: "Jun 2019 – May 2020",
       desc:
         "Upgrade and Migrate projects to AWS, Ansible, Terraform, Cloudformation, resolve problems in Linux Enviroments, Virtualization,, CI/CD, Support and working in Infraestructure as a code, Docker, Kubernetes...",
       descBullets: [
@@ -187,7 +187,7 @@ const workExperiences = {
       role: "DevOps Engineer",
       company: "Viesure",
       companylogo: require("./assets/images/viesureLogo.png"),
-      date: "Jan 2015 – Sep 2015",
+      date: "May 2020 – Present",
       desc:
         "Plan and implement new features in close collaboration with our product owners. Ensuring the stability, performance and other non-functional requirements of our services. Evaluate and introduce new technologies and frameworks. Share knowledge and ideas with the team. Focus on driving innovation from a technical and product perspectivere et dolore magna aliqua.",
       descBullets: [

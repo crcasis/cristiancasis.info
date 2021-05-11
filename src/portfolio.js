@@ -136,7 +136,7 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "DevOps, //Insert stack or technology you have experience in",
+      Stack: "DevOps",
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
@@ -315,7 +315,7 @@ const blogSection = {
 // Talks Sections
 
 const talkSection = {
-  title: "SCHEDULE A DATE WITH ME",
+  title: "SCHEDULE A DATE",
   subtitle: emoji(
     "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
   ),

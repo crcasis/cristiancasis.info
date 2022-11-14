@@ -127,6 +127,13 @@ const educationInfo = {
       subHeader: "MICROCOMPUTER SYSTEMS AND NETWORKS",
       duration: "September 2013 - December 2015",
       desc: "Management and analysis of corporate networks. Configuration of hosts and domains in business areas. Execute established data recovery and application procedures for faults and data loss in the system. Install, configure and maintain multi-user services, applications and shared devices in a local network environment. Migrate platforms. Azure, Aws and Google Cloud."
+    },
+    {
+      schoolName: "Inesem Business School",
+      logo: require("./assets/images/riojaLogo.png"),
+      subHeader: "Master of Cibersecurity",
+      duration: "September 2021 - December 2022",
+      desc: "Management and analysis of corporate networks. Configuration of hosts and domains in business areas. Execute established data recovery and application procedures for faults and data loss in the system. Install, configure and maintain multi-user services, applications and shared devices in a local network environment. Migrate platforms. Azure, Aws and Google Cloud."
     }
   ]
 };

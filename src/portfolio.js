@@ -1,4 +1,4 @@
-﻿/* Change this file to get your personal Portfolio */
+/* Change this file to get your personal Portfolio */
 
 // Summary And Greeting Section
 
@@ -12,10 +12,10 @@ const greeting = {
   username: "Cristian Casis",
   title: "Hi all, I'm Cristian",
   subTitle: emoji(
-    "A passionate Cloud DevOps Engineer|Solutions Architect|Couching 🚀 having an experience of building infrastructure and cloud environments with Docker / Kubernetes / ci-cd / Aws / GCloud / Azure"
+    "Passionate CTO & Sr Cloud DevOps Engineer | Solutions Architect 🚀"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1rKg11G7ZJa79pz6dedliPfOqzVNuAX9M/view?usp=sharing",
+    "https://drive.google.com/file/d/1QhXwsdfsH6E4nuEXAOi64b_b1GR7UJor/view?usp=sharing",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -37,7 +37,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY DEVOPS WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "CTO & DEVOPS WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
       "⚡ Code-based infrastructure development on public and hybrid cloud platforms"
@@ -117,7 +117,7 @@ const educationInfo = {
       schoolName: "La Rioja University",
       logo: require("./assets/images/riojaLogo.png"),
       subHeader: "NETWORK SYSTEMS ADMINISTRATION",
-      duration: "September 201 - December 2017",
+      duration: "September 2015 - December 2017",
       desc: "Advanced network management, configuration of local and remote servers in Windows and Unix systems. Advanced security audits. Advanced programming and administration of web pages and services. Creation and administration of databases. Programming. Cloud services."
  
     },
@@ -145,7 +145,7 @@ const techStack = {
   experience: [
     {
       Stack: "DevOps",
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      progressPercentage: "100%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Teaching / Couching",
@@ -153,7 +153,7 @@ const techStack = {
     },
     {
       Stack: "Team Leading",
-      progressPercentage: "70%"
+      progressPercentage: "90%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -191,8 +191,8 @@ const workExperiences = {
         ]  
     },
     {
-      role: "DevOps Engineer",
-      company: "Viesure",
+      role: "Sr DevOps Engineer & Cloud Architect",
+      company: "Viesure, Alpega",
       companylogo: require("./assets/images/viesureLogo.png"),
       date: "May 2020 – Present",
       desc:
@@ -200,7 +200,7 @@ const workExperiences = {
       descBullets: [
           "Infrastructure Engineer",
           "AWS Solutions Architect",
-          "Project manager made in docker swarm"
+          "EKS, AKS, Openshift Rosa, CI/CD, Security, Python.."
       ]  
     }
   ]
@@ -313,15 +313,23 @@ const blogSection = {
     "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
 
   blogs: [
-    {
+
+    {      
       url:
-        "https://cristiancasis.com/crypto-exchange-deployment-con-opendax/",
+        "https://youtu.be/ZtEPFmCtEaI?si=XP1RfY4CCh-jxtd-",
+      title: "Tekton for kubernetes",
+      description:
+        "Deploy tekton ci/cd pipelines for kubernetes or openshift"
+    },    
+    {      
+      url:
+        "https://youtu.be/8-pQCDNG-w8?si=jC5MKtNQr8AYl0zx",
       title: "Deploy a crypto exchange platform open-source",
       description:
         "Open-Source Cloud-Native Digital Asset & Cryptocurrency Exchange Platform"
     },
     {
-      url: "https://cristiancasis.com/vpn-con-wireguard-la-vpn-del-futuro/",
+      url: "https://youtu.be/A9R_jQ3SlFQ?si=iZKN8W1oHCUwS5dw",
       title: "VPN with Wireguard",
       description:
         "WireGuard is a security-focused virtual private network (VPN) known for its simplicity and ease of use."
@@ -342,11 +350,11 @@ const talkSection = {
     {
       title: "Book a time",
       subtitle: "Let's speak about the project",
-      slides_url: "https://cristiancasis.com/contrataciones/",
-      event_url: "https://cristiancasis.com/reservar-consultoria/"
+      slides_url: "https://calendly.com/crcasis",
+      event_url: "https://calendly.com/crcasis"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -366,8 +374,8 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+43 6601557847",
-  email_address: "info@cristiancasis.com"
+  number: "+34 629785212",
+  email_address: "cristian.casisvillarreal@gmail.com"
 };
 
 // Twitter Section

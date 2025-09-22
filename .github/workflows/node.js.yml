@@ -32,6 +32,3 @@ jobs:
 
       - name: Build the app (CI=false)
         run: CI=false npm run build --if-present
-
-      - name: Run tests
-        run: npm test

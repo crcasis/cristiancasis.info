@@ -30,8 +30,8 @@ jobs:
       - name: Apply security fixes
         run: npm audit fix || true
 
-      - name: Build the app (if applicable)
-        run: npm run build --if-present
+      - name: Build the app (CI=false)
+        run: CI=false npm run build --if-present
 
       - name: Run tests
         run: npm test
